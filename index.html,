@@ -1,1 +1,85 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fútbol Total</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101827;
+  color: white;
+  text-align: center;
+}
+header {
+  background: #082d60;
+  padding: 30px 10px;
+  border-bottom: 4px solid #ffcc00;
+}
+h1, h2 { color: #ffcc00; }
+nav { padding: 20px; background: #07111f; }
+nav a { color: white; margin: 8px; text-decoration: none; }
+section {
+  background: #1d2a3d;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 12px;
+}
+.boton {
+  display: inline-block;
+  background: #ffcc00;
+  color: #101827;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>⚽ FÚTBOL TOTAL</h1>
+  <p>Tu pasión, todos los partidos 💙💛</p>
+</header>
 
+<nav>
+  <a href="#partidos">Partidos</a>
+  <a href="#torneos">Torneos</a>
+  <a href="#boca">Boca Juniors</a>
+  <a href="#noticias">Noticias</a>
+</nav>
+
+<section id="partidos">
+  <h2>📅 Partidos</h2>
+  <p>Bienvenidos a Fútbol Total.</p>
+  <p>Acá encontrarás información, horarios y resultados.</p>
+</section>
+
+<section id="torneos">
+  <h2>🏆 Torneos</h2>
+  <p>🇦🇷 Fútbol argentino</p>
+  <p>🌎 Copa Libertadores</p>
+  <p>⭐ Champions League</p>
+  <p>🌍 Selecciones nacionales</p>
+</section>
+
+<section id="boca">
+  <h2>💙💛 Boca Juniors</h2>
+  <p>¡Dale, Boca! Siempre alentando al Xeneize.</p>
+  <a class="boton" href="https://www.bocajuniors.com.ar/" target="_blank" rel="noopener">Sitio oficial de Boca</a>
+</section>
+
+<section id="noticias">
+  <h2>📰 Noticias</h2>
+  <p>Muy pronto, más novedades del mundo del fútbol.</p>
+</section>
+
+<footer>
+  <p>Fútbol Total © 2026</p>
+</footer>
+</body>
+</html>
+```
